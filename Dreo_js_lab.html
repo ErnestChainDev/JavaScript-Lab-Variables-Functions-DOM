@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab Activities</title>
+    <link rel="stylesheet" href="Dreo_js_lab.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JavaScript Lab Activities</h1>
+            <p class="description">Three interactive activities to practice JavaScript fundamentals</p>
+        </header>
+        
+        <div class="activities">
+            <div class="activity">
+                <h2 class="activity-title">Activity 1: Variables and Functions</h2>
+                <p>Declare variables and create a function that returns a formatted string.</p>
+                <div class="output-box" id="output-1"></div>
+                <button onclick="runActivity1()">Run Activity 1</button>
+            </div>
+
+            <div class="activity">
+                <h2 class="activity-title">Activity 2: DOM Manipulation</h2>
+                <p>Click the button to change the background color randomly.</p>
+                <div class="color-display" id="color-display">
+                    Current color: #6a11cb
+                </div>
+                <button onclick="changeColor()">Change Background Color</button>
+            </div>
+
+            <div class="activity">
+                <h2 class="activity-title">Activity 3: Debugging and Enhancement</h2>
+                <p>Check the console output for debugging information and enhanced logs.</p>
+                <div class="output-box">
+                    Open browser console to see debug logs (F12 or Ctrl+Shift+I)
+                </div>
+                <button onclick="testDebugging()">Test Debugging</button>
+            </div>
+        </div>
+        
+        <div class="console">
+            <div class="console-title">Console Output</div>
+            <div id="console-output">
+                <div class="log-entry"><span class="log-timestamp">[00:00:00]</span>Welcome! Activities are ready to run.</div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>JavaScript Lab Activities &copy; 2023</p>
+    </footer>
+
+    <script src="Dreo_js_lab.js"></script>
+</body>
+</html>
